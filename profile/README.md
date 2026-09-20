@@ -76,6 +76,5 @@ Keep discussions respectful, specific, and useful. Community project questions b
 
 ## Official TypeSafe AI resources
 
-**[Website]([typesafe.ai](https://typesafe.ai)** · **[Documentation](https://docs.typesafe.ai)** · **API Reference** · **[Official GitHub](https://github.com/typesafe-ai)**
-
+**[Website](https://typesafe.ai)** · **[Documentation](https://docs.typesafe.ai)** · **[Official GitHub](https://github.com/typesafe-ai)**
 *These are official TypeSafe AI resources, separate from this unofficial community organization.*
