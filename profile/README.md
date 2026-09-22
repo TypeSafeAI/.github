@@ -29,6 +29,7 @@ A place for developers, researchers, and curious builders to turn ideas into **i
 | Repository | What to explore |
 |---|---|
 | **typesafe-playground** | Interactive Jev examples, A/B comparisons, document extraction, routing, games, and simulations. |
+| **jev-harness** | A coding-agent harness: an LLM proposes one edit, Jev answers four yes/no questions, code decides `permit` / `proposal_only` / `reject` / `unavailable`.<br>Verdicts are evidence, not authorization; nothing executes. Measured on 20 synthetic fixtures against live Jev. |
 | **clarity-judge** | Writing checks with separate verdicts and confidence signals.<br>Evaluates supplied text; does *not* rewrite it or verify facts. |
 | **typesafe-ui** | Reusable React components and interface patterns with a component browser.<br>A source workspace — not an official SDK or published npm package. |
 | **community-blog** | A minimal static blog for sharing community posts about TypeSafe AI. |
