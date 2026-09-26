@@ -6,7 +6,7 @@ Unofficial TypeSafeAI community project — not the official TypeSafe AI team.
 
 ## Entry points
 
-- [README](https://github.com/TypeSafeAI/.github/blob/main/README.md)
+- [README](https://github.com/TypeSafeAI/.github/blob/main/profile/README.md)
 - [Agent instructions](https://github.com/TypeSafeAI/.github/blob/main/AGENTS.md)
 - [Contributing](https://github.com/TypeSafeAI/.github/blob/main/CONTRIBUTING.md)
 
