@@ -46,7 +46,7 @@ Start in the relevant repository: read its README, AGENTS.md, and CONTRIBUTING.m
 
 Keep discussions respectful, specific, and useful. Community project questions belong in the relevant repository; **official product, account, billing, and API-support questions belong with TypeSafe AI's official channels.**
 
-[Community contribution guide](https://github.com/TypeSafeAI/.github/blob/main/CONTRIBUTING.md) · [Developer and agent navigation](https://github.com/TypeSafeAI/.github/blob/main/docs/discovery/README.md) · [Sharing guide](https://github.com/TypeSafeAI/.github/blob/main/docs/discovery/SHARING.md)
+[Community contribution guide](https://github.com/TypeSafeAI/.github/blob/main/CONTRIBUTING.md) · [Code of conduct](https://github.com/TypeSafeAI/.github/blob/main/CODE_OF_CONDUCT.md) · [Support](https://github.com/TypeSafeAI/.github/blob/main/SUPPORT.md) · [Developer and agent navigation](https://github.com/TypeSafeAI/.github/blob/main/docs/discovery/README.md) · [Sharing guide](https://github.com/TypeSafeAI/.github/blob/main/docs/discovery/SHARING.md)
 
 ## Working responsibly
 
@@ -57,6 +57,8 @@ Keep policy and authorization checks in application code. Distinguish simulated 
 
 > [!CAUTION]
 > Never publish API keys or sensitive data in code, issues, screenshots, or example inputs. Review a project's data-handling notes before using a hosted demo or supplying credentials.
+>
+> Found a vulnerability in a community project? Report it privately as described in the [security policy](https://github.com/TypeSafeAI/.github/blob/main/SECURITY.md), not in a public issue.
 
 ## Official TypeSafe AI resources
 

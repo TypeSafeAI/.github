@@ -9,8 +9,15 @@ This repository maintains the organization's public [profile README](profile/REA
 
 - [Community profile and project directory](profile/README.md)
 - [Contributing](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Security policy](SECURITY.md)
+- [Support](SUPPORT.md)
 - [Agent instructions](AGENTS.md)
 - [Machine-readable navigation](llms.txt)
+
+## Organization defaults
+
+GitHub applies `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`, `ISSUE_TEMPLATE/`, and `PULL_REQUEST_TEMPLATE.md` to every TypeSafeAI repository that does not ship its own copy. A repository's own file always wins; a repository with its own `.github/ISSUE_TEMPLATE/` folder replaces the whole default set. Keep these defaults generic and parse every issue form as YAML before committing, because GitHub silently drops an invalid form.
 
 ## Editing and verification
 

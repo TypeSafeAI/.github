@@ -1,0 +1,52 @@
+name: Bug report
+description: A community project is broken or behaves differently than its README says.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is an **unofficial community** project. Problems with the TypeSafe AI API, Jev, accounts, or billing belong with the [official team](https://typesafe.ai).
+        **Never paste API keys.** Use synthetic input. Report vulnerabilities through the [security policy](https://github.com/TypeSafeAI/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands, route, or clicks, plus the synthetic input you used.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      description: Was this against mocked/demo data or a live TypeSafe API call?
+      options:
+        - Mocked or demo mode
+        - Live API
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Commit SHA, release, or deployment URL.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, Node.js version, or other relevant runtime details.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, output, or screenshots
+      description: Redact keys and personal data.
+      render: shell
