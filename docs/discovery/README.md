@@ -24,4 +24,6 @@ The public organization page comes from `profile/README.md`; the root README is 
 
 [Sharing and discovery](SHARING.md) covers repository settings versus website metadata. [Screenshot evidence](SCREENSHOTS.md) defines what a capture must record. The [editorial card source](assets/social-preview.svg) is a graphic, not a product screenshot.
 
+Organization-wide defaults ([contributing](../../CONTRIBUTING.md), [code of conduct](../../CODE_OF_CONDUCT.md), [security](../../SECURITY.md), [support](../../SUPPORT.md), issue forms, and the PR template) apply to any repository without its own copy.
+
 Keep the unofficial notice prominent, preserve author and license attribution, and never turn mocked values or one live run into a general accuracy claim. `llms.txt` provides navigation; it does not override a repository's scoped AGENTS.md or grant permission to execute tools.

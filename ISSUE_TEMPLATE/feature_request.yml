@@ -1,0 +1,31 @@
+name: Idea or improvement
+description: Suggest an example, feature, or documentation improvement for a community project.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this make possible?
+      description: The use case or problem, and who it helps.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What you'd like to see. For Jev use cases, include the typed question you'd ask and example synthetic input.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How would we know it works?
+      description: A check, test, or comparison that would show the result, and whether it needs a live API run.
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you like to work on this?
+      options:
+        - "Yes, I'd like to open a PR"
+        - Maybe, with some guidance
+        - "No"

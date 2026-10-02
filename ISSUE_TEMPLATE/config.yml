@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/TypeSafeAI/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Follow the private reporting steps in the security policy.
+  - name: Official TypeSafe AI API, account, or billing support
+    url: https://typesafe.ai
+    about: This is an unofficial community organization. Official product questions go to the TypeSafe AI team.
+  - name: Official TypeSafe AI documentation
+    url: https://docs.typesafe.ai
+    about: API, SDK, and Jev model documentation from the official team.
